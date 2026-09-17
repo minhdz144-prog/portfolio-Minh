@@ -39,7 +39,7 @@ export default function Home() {
         <div className="absolute inset-0 bg-white/70 z-0"></div>
         <div className="relative z-10 max-w-3xl">
           <h1 className="text-5xl md:text-7xl font-extrabold text-slate-900 tracking-tight mb-4">
-            I'm Giang Văn Minh <br /> A Front-end Developer
+            I'm Giang Văn Minh <br /> A Full-stack Developer
           </h1>
           <p className="text-xl text-slate-600 mb-8 max-w-xl mx-auto">
             {profileData.bio}
@@ -66,8 +66,8 @@ export default function Home() {
           <div>
             <h2 className="text-3xl font-bold text-slate-900 mb-6">My Bio</h2>
             <p className="text-slate-600 mb-6 leading-relaxed">
-              Xin chào! Mình là Giang Văn Minh, một Front-end Developer đam mê với việc xây dựng các giao diện web đẹp mắt, tối ưu và mang lại trải nghiệm người dùng tuyệt vời. 
-              Mình luôn tìm tòi và cập nhật những công nghệ mới nhất để áp dụng vào các dự án.
+              Xin chào! Mình là Giang Văn Minh, một Full-stack Developer (Front-end & Back-end) đam mê với việc xây dựng các ứng dụng web toàn diện, mượt mà và mang lại trải nghiệm tuyệt vời. 
+              Mình luôn tìm tòi và cập nhật những công nghệ mới nhất để áp dụng vào các dự án từ frontend đến backend.
             </p>
             
             <div className="space-y-6 mt-8">
@@ -182,14 +182,14 @@ export default function Home() {
               <div className="space-y-12 mb-16">
                 <div className="relative pl-8 border-l-2 border-slate-200">
                   <div className="absolute -left-[9px] top-1 w-4 h-4 bg-blue-600 rounded-full"></div>
-                  <h4 className="text-xl font-bold text-slate-900">Front-end Developer</h4>
+                  <h4 className="text-xl font-bold text-slate-900">Full-stack Developer</h4>
                   <div className="flex flex-wrap gap-4 text-sm text-slate-500 font-medium my-3">
                     <span className="flex items-center gap-1"><Building size={16}/> Laztar Peep Internship</span>
                     <span className="flex items-center gap-1"><MapPin size={16}/> Remote</span>
                     <span className="flex items-center gap-1 text-blue-600 bg-blue-100 px-3 py-1 rounded-full">Fulltime</span>
                     <span className="flex items-center gap-1"><Calendar size={16}/> 09/2026 - Present</span>
                   </div>
-                  <p className="text-slate-600">Thực tập sinh lập trình Front-end. Xây dựng SaaS Landing Page, Portfolio cá nhân bằng Next.js và Tailwind CSS.</p>
+                  <p className="text-slate-600">Thực tập sinh lập trình Full-stack. Tham gia phát triển toàn diện (Front-end & Back-end) cho các dự án thực tế với công nghệ hiện đại.</p>
                 </div>
               </div>
 
